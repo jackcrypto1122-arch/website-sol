@@ -1,0 +1,37 @@
+/* Solvox brutalist wallet-adapter button overrides */
+.vt-wallet .wallet-adapter-button {
+  background: #14B88A !important;
+  color: #161616 !important;
+  border: 3px solid #161616 !important;
+  border-radius: 9999px !important;
+  box-shadow: 3px 3px 0 #161616 !important;
+  font-family: "Inter Variable", "Inter", ui-sans-serif, sans-serif !important;
+  font-weight: 600 !important;
+  height: 42px !important;
+  padding: 0 18px !important;
+  transition: transform 0.12s ease, box-shadow 0.12s ease !important;
+}
+.vt-wallet .wallet-adapter-button:not([disabled]):hover {
+  background: #14B88A !important;
+  transform: translate(-1px, -1px);
+  box-shadow: 5px 5px 0 #161616 !important;
+}
+.vt-wallet .wallet-adapter-button-trigger {
+  background: #14B88A !important;
+}
+.wallet-adapter-modal-wrapper {
+  background: #F8F7F2 !important;
+  border: 3px solid #161616 !important;
+  border-radius: 20px !important;
+  box-shadow: 8px 8px 0 #161616 !important;
+  font-family: "Inter Variable", "Inter", sans-serif !important;
+}
+.wallet-adapter-modal-title {
+  color: #161616 !important;
+  font-family: "Cormorant Garamond", serif !important;
+}
+.wallet-adapter-modal-list .wallet-adapter-button {
+  background: #D7D7C5 !important;
+  color: #161616 !important;
+  border-radius: 14px !important;
+}
