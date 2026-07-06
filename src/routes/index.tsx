@@ -10,7 +10,7 @@ import {
   Lock,
   Globe,
   MessageCircle,
-  Github,
+  Send,
   Twitter,
   BookOpen,
   Plus,
@@ -793,7 +793,7 @@ function Footer() {
         </div>
 
         <div className="flex flex-wrap items-start gap-8 text-sm">
-          <a href="#" className="flex items-center gap-2 text-card/80 transition-colors hover:text-primary"><Github className="h-4 w-4" /> GitHub</a>
+          <a href="#" className="flex items-center gap-2 text-card/80 transition-colors hover:text-primary"><Send className="h-4 w-4" /> TG</a>
           <a href="#" className="flex items-center gap-2 text-card/80 transition-colors hover:text-primary"><Twitter className="h-4 w-4" /> Twitter</a>
           <a href="#" className="flex items-center gap-2 text-card/80 transition-colors hover:text-primary"><BookOpen className="h-4 w-4" /> Docs</a>
         </div>
